@@ -5,7 +5,7 @@ Testing scrip designed to verify functionality of the form on the webpage and th
 Created for the purposes of Thinklogic Assesment.
 
 
-# Instructions
+## Instructions
 
 ◊ Download and install latest versions of Git and Node.js
 
@@ -19,6 +19,6 @@ Created for the purposes of Thinklogic Assesment.
     npx wdio
 
 
-# Expected results:
+## Expected results
 
-![screenshot](test/data/expected results.png)
+![screenshot](./test/data/expected results.png)
