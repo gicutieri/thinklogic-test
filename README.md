@@ -21,7 +21,7 @@ Created for the purposes of Thinklogic Assesment.
 
 ## Expected results
 
-![screenshot](./test/data/expected results.png)
+![expected results](https://github.com/user-attachments/assets/e609f97d-4d9b-4dee-9f87-56f1e3d2b682)
 
 ### claimForm.fullForm
 validate all fields are submitted correctly
