@@ -23,17 +23,17 @@ Created for the purposes of Thinklogic Assesment.
 
 ![screenshot](./test/data/expected results.png)
 
-#### claimForm.fullForm
+### claimForm.fullForm
 validate all fields are submitted correctly
 
-#### claimForm.fill personal data
+### claimForm.fill personal data
 negative test
 
 personal data is submitted and purchase information is not submitted
 
 error message should be found
 
-#### claimForm.fill purchase information
+### claimForm.fill purchase information
 negative test
 
 personal data is not submitted and purchase information is submitted
