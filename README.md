@@ -21,3 +21,4 @@ Created for the purposes of Thinklogic Assesment.
 
 # Expected results:
 
+![screenshot](test/data/expected results.png)
