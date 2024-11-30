@@ -22,3 +22,29 @@ Created for the purposes of Thinklogic Assesment.
 ## Expected results
 
 ![screenshot](./test/data/expected results.png)
+
+#### claimForm.fullForm
+validate all fields are submitted correctly
+
+#### claimForm.fill personal data
+negative test
+
+personal data is submitted and purchase information is not submitted
+
+error message should be found
+
+#### claimForm.fill purchase information
+negative test
+
+personal data is not submitted and purchase information is submitted
+
+error message should be found
+
+
+## Versions used
+
+#### node.js
+v23.3.0
+
+#### npm
+10.9.0
