@@ -1,6 +1,5 @@
 {
-  "name": "thinklogic",
-  "type": "module",
+  "name": "thinklogic-test",
   "devDependencies": {
     "@faker-js/faker": "^9.2.0",
     "@wdio/cli": "^9.4.1",
