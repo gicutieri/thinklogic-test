@@ -45,13 +45,14 @@ class claimformPage {
         //class name cms-component-411edc1a-button ripple
     }
 
+
+    //functions to find validation messages
+
     get validationMessage() {
         return $('#c__formAppee85a0da');
     }
     
     get requiredMessage() {
-        //return $('//input[@id="c__ClaimantInfo_Name_ee85a0da" and @aria-errormessage="c__ClaimantInfo_Name_ee85a0da_error"]');
-        //return $('/html//div[@id="contact-form"]/div[@class="container"]//div[@class="row-fluid"]/div/span[text()="*requirer"]');
         return $('#c__ClaimantInfo_Name_ee85a0da_error');
     }
 
@@ -60,7 +61,7 @@ class claimformPage {
     }
 
 
-    //get claim form page
+    //get claim form webpage
     open() {
         return browser.url('/claim-form');
     }
@@ -82,6 +83,7 @@ class claimformPage {
     }
 
 
+    //fill all personal data information
     async addPersonalData() {
         await this.nameField.addValue(faker.person.fullName()); //randomize name
         await this.emailField.addValue(faker.internet.email()); //randomize email
@@ -90,6 +92,7 @@ class claimformPage {
     }
 
 
+    //fill all purchase information
     async addPurchase() {
         await this.addPurchaseButton.click(); //add a purchase
         await this.inputDate();
@@ -97,7 +100,7 @@ class claimformPage {
     }
 
 
-    //validate all fields
+    //fill all fields
     async fillForm() {
         await this.addPersonalData();
         await this.addPurchase();

@@ -17,12 +17,20 @@ describe('claimForm', () => {
         await expect(claimformPage.validationMessage).toHaveText('Your claim has been submitted.');
     });
 
+    //negative test
+    //personal data is submitted
+    //purchase information is not submitted
+    //error message should be found
     it('fill personal data', async () => {
         await claimformPage.addPersonalData();
         await claimformPage.submitButton.click();
         await expect(claimformPage.purchasedMissingMessage).toExist();
     });
 
+    //negative test
+    //personal data is not submitted
+    //purchase information is submitted
+    //error message should be found
     it('fill purchase information', async () => {
         await claimformPage.addPurchase();
         await claimformPage.submitButton.click();
